@@ -41,14 +41,13 @@ namespace XUnitCumulativePractice
                 {
                     if (number1 % 2 == 0)
                     {
-                        bool myBool = true;
-                        return myBool;
+                        
+                        return true;
                     }
                     else
                     {
                         return false;
                     }
-
                 }
                 else
                 {
@@ -59,8 +58,6 @@ namespace XUnitCumulativePractice
             {
                 return false;
             }
-
-
         }
     }
 }
