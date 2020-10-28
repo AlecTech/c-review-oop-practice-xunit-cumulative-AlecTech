@@ -7,11 +7,11 @@ namespace XUnitCumulativePractice
 {
     public class Storage
     {
-        public List<Item> Contents { get; set; } = new List<Item>();
+        public List<Item> Contents { get; set; } 
 
         public Storage()
         {
-      
+            Contents = new List<Item>();
         }
 
         public void AddItem(Item item)
